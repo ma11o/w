@@ -1,0 +1,24 @@
+{
+  "name": "w",
+  "version": "0.0.1",
+  "description": "Node version manager for windows",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx nexe index.js --target windows-x64-14.15.3 --output w.exe",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "chalk": "^5.1.2",
+    "cli-progress": "^3.11.2",
+    "commander": "^11.1.0",
+    "conf": "^10.2.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nexe": "^4.0.0-rc.4"
+  }
+}
