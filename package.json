@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx nexe index.js --target windows-x64-14.15.3 --output w.exe",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "node-fetch": "^2.6.7"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "nexe": "^4.0.0-rc.4"
   }
 }
