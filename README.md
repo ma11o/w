@@ -1,4 +1,4 @@
-# w - Node version management for windows
+# w - Node version management for Windows
 
 Node.js version management: inspired by [n](https://github.com/tj/n).
 
